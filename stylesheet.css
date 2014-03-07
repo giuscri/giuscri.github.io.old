@@ -6,6 +6,18 @@ body {
 }
 
 /* Adding blanks between lists' elements */
-li {
-    margin: 0 0 1em 0;
-}
+li { margin: 0 0 1em 0; }
+
+/*
+ * I'd like to make the powerSearch div looking the
+ * same as coding sections in The Linux Documentation Project.
+ * Maybe I need to write something like:
+ *
+ * #powerSearch { background-color: #E0E0E0; margin: ...; }
+ *
+ *
+ */
+
+
+/* Do not underline power search link */
+#powerSearch a { text-decoration: none; }
