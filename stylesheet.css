@@ -1,0 +1,11 @@
+/* Centering every block in body */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 32em;
+}
+
+/* Adding blanks between lists' elements */
+li {
+    margin: 0 0 1em 0;
+}
