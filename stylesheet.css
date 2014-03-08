@@ -1,14 +1,14 @@
 /* Centering every block in body */
-body { margin-left: auto; margin-right: auto; width: 32em; }
+body { margin-left: auto; margin-right: auto; width: 24em; }
+
+/* infos is a div. Making it in evidence using a different style. */
+#infos { padding: 1em; font-size: 0.75em; font-style: italic; }
 
 /* Adding blanks between lists' elements */
 li { margin: 0 0 1em 0; }
 
 /* Do not underline power search link */
 #powerSearch a { text-decoration: none; }
-
-// TODO: fix style of this span ...
-//#articleTitle .author { margin-left:auto; margin-right: auto; width: 12em; }
 
 /* Hide bullets for the list in referenceSection div */
 #referenceSection li { list-style: none; }
