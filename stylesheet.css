@@ -1,23 +1,18 @@
 /* Centering every block in body */
-body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 32em;
-}
+body { margin-left: auto; margin-right: auto; width: 32em; }
 
 /* Adding blanks between lists' elements */
 li { margin: 0 0 1em 0; }
 
-/*
- * I'd like to make the powerSearch div looking the
- * same as coding sections in The Linux Documentation Project.
- * Maybe I need to write something like:
- *
- * #powerSearch { background-color: #E0E0E0; margin: ...; }
- *
- *
- */
-
-
 /* Do not underline power search link */
 #powerSearch a { text-decoration: none; }
+
+// TODO: fix style of this span ...
+//#articleTitle .author { margin-left:auto; margin-right: auto; width: 12em; }
+
+/* Hide bullets for the list in referenceSection div */
+#referenceSection li { list-style: none; }
+
+/* Use italic for every reference section link,
+   since they'll be only book's title */
+#referenceSection a { font-style: italic; }
