@@ -13,7 +13,18 @@
 <div id="infos">
 <p>Articolo originale: <a href=http://norvig.com/21-days.html>Teach yourself programming in ten years</a>
 Peter&nbsp;Norvig,&nbsp;2001</p>
-<p>Hanno contribuito: giuscri[at]gmail.com, pierandrea92[at]gmail.com, ...</p>
+
+<p>
+Hanno contribuito
+(in ordine cronologico dal primo commit
+sulla repository originale):
+<ul id="authors">
+<li>giuscri[at]gmail.com</li>
+<li>pierandrea92[at]gmail.com</li>
+<li>...</li>
+</ul>
+</p>
+
 <p>Sorgente disponibile (e <strong>migliorabile</strong>) su
 <a href=https://github.com/giuscri/giuscri.github.io>github</a>.</p>
 </div>
@@ -22,8 +33,8 @@ Peter&nbsp;Norvig,&nbsp;2001</p>
 <p>
     Camminando in una qualsiasi libreria, vedrai
     titoli come <em>Impara Java in 7 giorni</em>
-    vicino a molti altri titoli che si offrono
-    di insegnare Visual Basic, Windows, Internet
+    vicino a molti altri che si offrono
+    di insegnarti Visual Basic, Windows, Internet
     e cosi' via in pochi giorni o ore. Ho fatto
     la seguente <a href="...">power search</a>
     su <a href="http://www.amazon.com/">Amazon.com</a>:
@@ -34,15 +45,22 @@ Peter&nbsp;Norvig,&nbsp;2001</p>
     <a href="...">pubdate: after 1992 and title: days and
     (title: learn or title: teach yourself)</a>
     </code>
+
+    <p id="powerSearch_ita">
+        In prosa: cerca libri pubblicati dopo il 1992
+        che contengano nel titolo &quot;days&quot; (giorni)
+        e o &quot;learn&quot; (impara) o &quot;teach yourself&quot;
+        (impara da solo).
+    </p>
 </div>
 
 <p>
     e ho trovato 248 risultati. I primi 78 erano
     libri sui computer (il 79esimo era <em>Impara il Bengali
-    in 30 giorni</em>). Ho sostituito &quot;days&quot;
-    con &quot;hours&quot; ed ho ottenuto simili risultati:
+    in 30 giorni</em>). Ho sostituito &quot;days&quot; (<em>giorni</em>)
+    con &quot;hours&quot; (<em>ore</em>) ed ho ottenuto simili risultati:
     altri 253 libri i cui primi 77 sui computer, seguiti
-    da <em>Impara la grammatica e lo stile in 24 ore</em>
+    da <em>Impara stile e grammatica in 24 ore</em>
     al numero 78. Dei primi 200 risultati, il 96% erano libri di
     computer.
 </p>
@@ -51,53 +69,65 @@ Peter&nbsp;Norvig,&nbsp;2001</p>
     La conclusione e' che o le persone hanno una gran fretta
     di imparare qualcosa sui computer, o che i computer sono
     in qualche modo piu' semplici da imparare di tutto il resto.
-    Non ci sono libri su come imparare Beethoven, o Fisica quantistica,
-    o addirittura la Toelettatura per Cani in pochi giorni. Felleisen <em>et al.</em>
-    hanno dato adito a questa tendenza nel libro <a href="http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html">How to Design Programs</a>,
+    Non ci sono libri su come imparare Beethoven, o la Fisica quantistica,
+    o addirittura la Toelettatura per Cani in pochi giorni.
+    Felleisen <em>et al.</em>
+    hanno dato adito a questa tendenza nel libro
+    <a href="http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html">
+       How to Design Programs
+    </a> (<em>Come strutturare programmi</em>),
     scrivendo che <q>La cattiva programmazione e' facile. Un idiota
     puo' impararla in 21 giorni, anche se e' un principiante.</q>
 </p>
 
 <p>
     Analizziamo che cosa un titolo come
-    <a href="...">Impara C++ in tre giorni</a> puo' significare:
+    <a href="http://www.amazon.com/Learn-C-Three-Days-Rachele/dp/1556227078">
+    Learn C++ in Three Days</a>
+    (<em>Impara il C++ in tre giorni</em>) puo' significare:
     <ol>
         <li><strong>Impara:</strong> in 3 giorni non avrai abbastanza tempo
-        per scrivere programmi interessanti e imparare dai tuoi errori
-        e successi da quelli. Non avrai abbastanza tempo per lavorare
+        per scrivere programmi interessanti, imparando dai tuoi errori
+        e successi con quelli. Non avrai abbastanza tempo per lavorare
         con un programmatore esperto e capire com'e' vivere in un ambiente
-        in C++. In pratica, non avrai tempo per imparare molto. Quindi quel
-        libro puo' solo parlare di una familiarita' superficiale, non una
-        di una profonda comprensione. Come disse Alexandre Pope, capire
-        poco e' dannoso.</li>
+        in C++. In breve, non avrai tempo per imparare molto. Quel
+        libro potra' parlare solo di una familiarita' superficiale, non una
+        di una profonda. Come disse Alexandre Pope, capire
+        poco e' pericoloso.</li>
 
         <li><strong>C++:</strong> in 3 giorni potrai essere in grado
         di imparare un po' di sintassi di C++ (se conosci gia' un
-        altro linguaggio), ma non potrai imparare molto su come usarlo.
+        altro linguaggio), ma non potrai imparare molto sul <em>come</em> usarlo.
         In poche parole, se per esempio sei un programmatore di Basic
         potresti imparare a scrivere programmi in Basic usando la sintassi
-        del C++, ma non imparerai dove e' bene (o male) usare il C++. Quindi
+        del C++, ma non imparerai dove e' meglio (o peggio) usare il C++. Quindi
         qual e' il punto? <a href="...">Alan Perlis</a> una volta disse:
         <q>Non vale la pena conoscere un linguaggio che non ha effetti
         sul modo con cui programmi.</q> Un'obiezione possibile
         e' che si ha bisogno di imparare solo un po' di C++ (o piu' probabilmente
         qualcosa del tipo Javascript o Flex di Adobe Flash (?)) perche' si ha
-        bisogno di interfacciarsi con uno strumento gia' esistente. Ma allora
-        non stai impararando a programmare: stai imparando a interfacciarti
-        con lo strumento gia' esistente.</li>
+        bisogno di interfacciarsi con qualcosa di gia' scritto per portare
+        a termine un particolare compito. Ma allora
+        non stai impararando a programmare in C++: stai imparando
+        come portare a termine il tuo compito.</li>
 
         <li><strong>in tre giorni:</strong> purtroppo non bastano come
-         evidenzia la prossima sezione.</li>
+        evidenzia la prossima sezione.</li>
     </ol>
 </p>
 
 <h2>Impara a programmare in dieci anni</h2>
 <p>
-    Alcuni ricercatori (...) hanno mostrato come in una grande varieta' di
-    campi fra cui giocare a
+    Alcuni ricercatori (
+    <a href="http://www.amazon.com/exec/obidos/ASIN/034531509X/">Bloom(1985)</a>,
+    <a href="#bh">Bryan &amp; Harter (1899)</a>,
+    <a href="http://www.amazon.com/exec/obidos/ASIN/0805803092">Hayes (1989)</a>,
+    <a href="#sc">Simmon &amp; Chase (1973)</a>
+    ) hanno mostrato come in una grande varieta' di
+    campi fra i quale giocare a
     scacchi, comporre musica, scrivere telegrammi, dipingere,
     suonare il piano, nuotare, giocare a tennis, fare ricerca
-    in neuropsicologia e topologia per sviluppare
+    in neuropsicologia, topologia, per sviluppare
     esperienza servono circa dieci anni.
     Il segreto e' praticare in modo critico ed intelligente: non semplicemente
     fare e ancora fare, ma mettere alla prova se stessi
@@ -106,30 +136,33 @@ Peter&nbsp;Norvig,&nbsp;2001</p>
     e correggere ogni errore. Quindi ripetere. E ripetere ancora.
     Sembra non ci siano scorciatoie: persino Mozart, che fu un prodigio
     della musica all'eta' di quattro anni, ne impiego' 13 o piu' di anni
-    prima che potesse produrre musica di rilevanza internazionale. Cambiando genere,
-    i Beatles sembra facero <em>il botto</em> con una fila di hit e
-    un'apparizione all'<em>Ed&nbsp;Sullivan&nbsp;show</em> nel 1964. Ma hanno suonato
+    prima che potesse produrre musica di rilevanza internazionale.
+    Cambiando genere, i Beatles sembra facero <em>il botto</em>
+    con una fila di hit e un'apparizione
+    all'<em>Ed&nbsp;Sullivan&nbsp;show</em> nel 1964. Ma hanno suonato
     in piccoli locali a Liverpool e Hamburg fin dal 1957, 
     e nonostante avessero ricevuto apprezzamenti dal pubblico fin da subito,
     il loro primo grande successo riconosciuto dalla critica,
-    <em>Sgt.&nbsp;Peppers</em>, usci' solo nel 1967. <a href="....">Malcolm Gladwell</a>
-    riporta che uno studio sugli allievi della Berlin Academy of Music mise
-    a confronto i migliori, quelli semplicemente bravi e i peggiori di una classe e chiese
+    <em>Sgt.&nbsp;Peppers</em>, usci' solo nel 1967.
+    <a href="http://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017922">Malcolm Gladwell</a>
+    riporta uno studio sugli allievi della Berlin&nbsp;Academy&nbsp;of&nbsp;Music
+    mise a confronto i migliori, quelli semplicemente bravi
+    e i peggiori di una classe e chiese
     loro quanto si erano esercitati fino a quel momento:
 
     <blockquote>
     Tutti nei tre gruppi hanno cominciato a suonare piu' o meno alla stessa
     eta' - verso i cinque anni. In quel primo periodo tutti sembra abbiano
-    suonato per lo stesso tempo - circa due o tre ore alla settimana. Ma
-    verso gli otto annni le vere differenze cominciano ad emergere. Gli
+    suonato con la stessa frequenza - circa due o tre ore alla settimana. Ma
+    verso gli otto anni le vere differenze cominciano ad emergere. Gli
     studenti che finiranno ad essere i migliori nella classe hanno cominciato
     a suonare piu' di tutti gli altri: sei ore alla settimana all'eta' di nove
     anni, otto a 12 anni, 16 alla settimana all'eta' di 14 anni, e sempre a
     crescere fino a che a vent'anni suonavano oltre le 30 ore a settimana.
-    Verso i vent'anni quindi i musicisti piu' bravi (<em>nella classe</em>, ndt)
+    Verso i vent'anni quindi i musicisti piu' bravi (<em>nella classe</em>, NdT)
     avevano totalizzato 10,000 ore di pratica durante il corso della loro vita.
     I meno bravi avevano invece raggiunto 8'000 ore e i futuri insegnanti di
-    musica poco piu' di 4,000 ore.
+    musica (<em>sic</em>) poco piu' di 4,000 ore.
     </blockquote>
 
     Quindi potrebbero essere le 10,000 ore, e non i 10 anni, la cifra magica.
@@ -142,7 +175,7 @@ Peter&nbsp;Norvig,&nbsp;2001</p>
     per il detto <q>ars longa, vita brevis</q>, che e' una parte di
     una citazione piu' lunga <q>Ars longa, vita brevis, occasion praeceps,
     experimentus pericolosum, iudicum difficile</q>;, che in 
-    [Italiano] (ndt) puo' essere tradotta come <q>La vita e' breve, il ... lungo/a
+    [Italiano] (NdT) puo' essere tradotta come <q>La vita e' breve, il ... lungo/a
     le opportunita' ...</q> Sebbene in Latino <em>ars</em> puo' significare
     sia arte che abilita', nella versione originale in Greco la parola
     &quot;techne&quot; ha solamente il secondo significato.
@@ -225,7 +258,7 @@ Peter&nbsp;Norvig,&nbsp;2001</p>
     Con tutto questo in mente, uno puo' domandarsi quanto lontano
     si arriva imparando dai libri. Prima che nascesse il mio primo
     figlio, ho letto qualsiasi libro del tipo <em>Impara/Diventa ...</em>
-    (... ndt), e mi sentivo ugualmente un principiante senza indizi.
+    (... NdT), e mi sentivo ugualmente un principiante senza indizi.
     30 mesi piu' tardi, quanto nacqua il mio secondo figlio, pensate
     che tornai indietro ai vecchi libri che avevo comprato per un ripasso?
     No. Piuttosto, mi affidai alla mia esperienza personale, che si rivelo'
@@ -346,7 +379,7 @@ appena preme un tasto, o nella maniera &quot;batch&quot;, in cui
 uno sente le note solo dopo aver suonato l'intero pezzo? Chiaramente,
 la maniera interattiva rende piu' semplice imparare il piano, e lo stesso
 per la programmazione. Insisti [quindi] in un linguaggio con una
-modalita' interattiva (un interprete, ndt) e usalo.</li>
+modalita' interattiva (un interprete, NdT) e usalo.</li>
 
 </ul>
 
