@@ -5,19 +5,25 @@ body {
   font-family: sans-serif;
   width: 24em; }
 
+/* Use different style for in-line quote */
+q { font-style: italic; }
+
 /* infos is a div. Making it in evidence using a different style. */
 #infos { padding: 1em; font-size: 0.75em; font-style: italic; }
 
+/* Hide bullets for the list with id="authors" */
 #authors li { list-style: none; }
 
 /* Adding blanks between lists' elements */
 li { margin: 0 0 1em 0; }
 
+/* Define a padding for powerSearch div */
 #powerSearch { padding: 1em;  }
 
 /* Do not underline power search link */
 #powerSearch a { text-decoration: none; }
 
+/* Resize italian traslation of power-search code */
 #powerSearch_ita { font-size: 0.75em;  }
 
 /* Hide bullets for the list in referenceSection div */
@@ -26,3 +32,6 @@ li { margin: 0 0 1em 0; }
 /* Use italic for every reference section link,
    since they'll be only book's title */
 #referenceSection a { font-style: italic; }
+
+/* Make in evidence important quotations ... making them smaller! */
+blockquote { font-size: 0.9em; }
