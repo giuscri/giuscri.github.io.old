@@ -7,5 +7,7 @@ You can see the current result at [http://giuscri.github.io](http://giuscri.gith
 
 ## TODO:
 
-+ Changing last table style from Peter Norvig's style
-to more modern HTML+CSS.
++ Change last table-style to a more modern HTML+CSS.
++ Change repo's tree (e.g. `index.html` might look
+as the 'index' page of the Apache webserver) and move
+this article to a inner node.
